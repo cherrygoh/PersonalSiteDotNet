@@ -1,0 +1,9 @@
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\bin\Debug\netstandard2.0\PersonalSiteDotNet.Core.deps.json
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\bin\Debug\netstandard2.0\PersonalSiteDotNet.Core.dll
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\bin\Debug\netstandard2.0\PersonalSiteDotNet.Core.pdb
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\obj\Debug\netstandard2.0\PersonalSiteDotNet.Core.csprojAssemblyReference.cache
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\obj\Debug\netstandard2.0\PersonalSiteDotNet.Core.AssemblyInfoInputs.cache
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\obj\Debug\netstandard2.0\PersonalSiteDotNet.Core.AssemblyInfo.cs
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\obj\Debug\netstandard2.0\PersonalSiteDotNet.Core.csproj.CoreCompileInputs.cache
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\obj\Debug\netstandard2.0\PersonalSiteDotNet.Core.dll
+C:\Users\Cherry Goh\Documents\Projects\PersonalSiteDotNet\src\PersonalSiteDotNet.Core\obj\Debug\netstandard2.0\PersonalSiteDotNet.Core.pdb
