@@ -1,2 +1,1 @@
-# PersonalSiteDotNet
-Backend for my personal site.
+# Personal Site Backend (.NET Core version)
