@@ -36,12 +36,7 @@ namespace PersonalSiteDotNet.Infrastructure
                 query = query.Where(filter);
             }
 
-            if (orderBy != null)
-            {
-                return orderBy(query).ToList<T>();
-            }
-
-            return query.ToList<T>();
+            return orderBy == null ? query.ToList<T>() : orderBy(query).ToList<T>();
         }
 
         public T GetById(int id)
