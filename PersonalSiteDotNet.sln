@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalSiteDotNet.Web", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalSiteDotNet.Infrastructure", "src\PersonalSiteDotNet.Infrastructure\PersonalSiteDotNet.Infrastructure.csproj", "{D19320BE-D88E-42E2-8D89-480FA6340169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalSiteDotNet.Infrastructure.Tests", "PersonalSiteDotNet.Infrastructure.Tests\PersonalSiteDotNet.Infrastructure.Tests.csproj", "{796FAF64-1736-4A53-8154-A899373DF1F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D19320BE-D88E-42E2-8D89-480FA6340169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19320BE-D88E-42E2-8D89-480FA6340169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19320BE-D88E-42E2-8D89-480FA6340169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{796FAF64-1736-4A53-8154-A899373DF1F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{796FAF64-1736-4A53-8154-A899373DF1F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{796FAF64-1736-4A53-8154-A899373DF1F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{796FAF64-1736-4A53-8154-A899373DF1F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
