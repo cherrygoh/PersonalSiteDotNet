@@ -23,7 +23,7 @@ namespace PersonalSiteDotNet.Infrastructure
         {
             get
             {
-                return _blogRepository ?? (new Repository<Blog>(_dbContext));
+                return _blogRepository ?? (_blogRepository = new Repository<Blog>(_dbContext));
             }
             
         }
@@ -32,7 +32,7 @@ namespace PersonalSiteDotNet.Infrastructure
         {
             get
             {
-                return _entryRepository ?? (new Repository<Entry>(_dbContext));
+                return _entryRepository ?? (_entryRepository = new Repository<Entry>(_dbContext));
             }
         }
 
@@ -40,7 +40,7 @@ namespace PersonalSiteDotNet.Infrastructure
         {
             get
             {
-                return _tagRepository ?? (new Repository<Tag>(_dbContext));
+                return _tagRepository ?? (_tagRepository = new Repository<Tag>(_dbContext));
             }
         }
 
@@ -48,7 +48,7 @@ namespace PersonalSiteDotNet.Infrastructure
         {
             get
             {
-                return _entryTagRepository ?? (new Repository<EntryTag>(_dbContext));
+                return _entryTagRepository ?? (_entryTagRepository = new Repository<EntryTag>(_dbContext));
             }
         }
 
