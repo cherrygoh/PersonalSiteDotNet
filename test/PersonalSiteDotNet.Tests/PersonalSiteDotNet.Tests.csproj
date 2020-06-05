@@ -19,8 +19,4 @@
     <ProjectReference Include="..\..\src\PersonalSiteDotNet.Infrastructure\PersonalSiteDotNet.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Infrastructure\" />
-  </ItemGroup>
-
 </Project>
