@@ -5,9 +5,9 @@ using System.Text;
 
 namespace PersonalSiteDotNet.Infrastructure.Tests
 {
-    public class MockEntity
+    public class StubEntity
     {
-        public int Id;
-        public string Name;
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
