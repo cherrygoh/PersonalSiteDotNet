@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalSiteDotNet.Infrastr
 		{39D25D28-D27C-42C4-9B58-A6D890A1E157} = {39D25D28-D27C-42C4-9B58-A6D890A1E157}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalSiteDotNet.Infrastructure.Tests", "test\PersonalSiteDotNet.Infrastructure.Tests\PersonalSiteDotNet.Infrastructure.Tests.csproj", "{02693151-22D5-465D-AF35-8A4464B433DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalSiteDotNet.Tests", "test\PersonalSiteDotNet.Tests\PersonalSiteDotNet.Tests.csproj", "{02693151-22D5-465D-AF35-8A4464B433DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
