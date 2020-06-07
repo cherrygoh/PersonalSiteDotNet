@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using PersonalSiteDotNet.Core.Interfaces;
 using PersonalSiteDotNet.Core.Entities;
 using System;
 using System.Collections.Generic;

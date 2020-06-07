@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PersonalSiteDotNet.Infrastructure
+namespace PersonalSiteDotNet.Core.Interfaces
 {
     public interface IUnitOfWork
     {
