@@ -14,14 +14,10 @@ namespace PersonalSiteDotNet.Infrastructure
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             IEnumerable<String> includes = null);
 
-        T GetById(int id);
-
         Task<IEnumerable<T>> GetAsync(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             IEnumerable<String> includes = null);
-
-        Task<T> GetByIdAsync(int id);
 
         void Add(T entity);
         void Delete(T entity);

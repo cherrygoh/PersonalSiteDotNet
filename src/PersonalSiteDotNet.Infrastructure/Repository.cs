@@ -72,16 +72,6 @@ namespace PersonalSiteDotNet.Infrastructure
             return orderBy == null ? await query.ToListAsync<T>() : await orderBy(query).ToListAsync<T>();
         }
 
-        public T GetById(int id)
-        {
-            return _dbSet.Find(id);
-        }
-
-        public async Task<T> GetByIdAsync(int id)
-        {
-            return await _dbSet.FindAsync(id);
-        }
-
         public void Update(T entity)
         {
             _dbSet.Update(entity);
