@@ -8,8 +8,6 @@ namespace PersonalSiteDotNet.Core.Interfaces
 {
     public interface IUnitOfWork
     {
-        void Commit();
-
         Task CommitAsync();
     }
 }
