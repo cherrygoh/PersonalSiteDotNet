@@ -11,10 +11,12 @@ namespace PersonalSiteDotNet.Infrastructure
 {
     public class Repository<T> : IRepository<T> where T : class
     {
+        private DbContext _dbContext;
         private DbSet<T> _dbSet;
         
         public Repository(DbContext dbContext)
         {
+            _dbContext = dbContext;
             _dbSet = dbContext.Set<T>();
         }
         public void Add(T entity)
@@ -57,7 +59,8 @@ namespace PersonalSiteDotNet.Infrastructure
 
         public void Update(T entity)
         {
-            _dbSet.Update(entity);
+            _dbSet.Attach(entity);
+            _dbContext.Entry(entity).State = EntityState.Modified;
         }
     }
 }
