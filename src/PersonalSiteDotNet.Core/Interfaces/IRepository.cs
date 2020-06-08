@@ -9,16 +9,12 @@ namespace PersonalSiteDotNet.Core.Interfaces
 {
     public interface IRepository<T> where T : class
     {
-        IEnumerable<T> Get(
-            Expression<Func<T, bool>> filter = null, 
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            IEnumerable<String> includes = null);
-
         Task<IEnumerable<T>> GetAsync(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
             IEnumerable<String> includes = null);
 
+        Task<T> GetByIdAsync(int id);
         void Add(T entity);
         void Delete(T entity);
         void Update(T entity);

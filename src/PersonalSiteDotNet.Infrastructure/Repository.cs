@@ -27,29 +27,6 @@ namespace PersonalSiteDotNet.Infrastructure
             _dbSet.Remove(entity);
         }
 
-        public IEnumerable<T> Get(
-            Expression<Func<T, bool>> filter = null, 
-            Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            IEnumerable<String> includes = null)
-        {
-            IQueryable<T> query = _dbSet;
-
-            if (filter != null)
-            {
-                query = query.Where(filter);
-            }
-
-            if (includes != null)
-            {
-                foreach (String include in includes)
-                {
-                    query.Include(include);
-                }
-            }
-
-            return orderBy == null ? query.ToList<T>() : orderBy(query).ToList<T>();
-        }
-
         public async Task<IEnumerable<T>> GetAsync(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
@@ -71,6 +48,11 @@ namespace PersonalSiteDotNet.Infrastructure
             }
 
             return orderBy == null ? await query.ToListAsync<T>() : await orderBy(query).ToListAsync<T>();
+        }
+
+        public async Task<T> GetByIdAsync(int id)
+        {
+            return await _dbSet.FindAsync(id);
         }
 
         public void Update(T entity)
