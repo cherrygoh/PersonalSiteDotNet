@@ -1,5 +1,5 @@
 ﻿using PersonalSiteDotNet.Core.Entities;
-using PersonalSiteDotNet.Web.DTO;
+using PersonalSiteDotNet.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
