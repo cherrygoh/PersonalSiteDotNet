@@ -13,6 +13,6 @@ namespace PersonalSiteDotNet.Core.Entities
         public DateTime ModifiedDate { get; set; }
         public int BlogId { get; set; }
         public Blog Blog { get; set; }
-        public ICollection<EntryTag> EntryTags {get; set;}
+        public ICollection<EntryTag> EntryTags { get; set; }
     }
 }
