@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PersonalSiteDotNet.Web.Models
+namespace PersonalSiteDotNet.Core.Models
 {
     public class BlogDTO
     {

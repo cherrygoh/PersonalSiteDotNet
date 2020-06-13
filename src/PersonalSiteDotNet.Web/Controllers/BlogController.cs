@@ -7,8 +7,8 @@ using System.Web.Http.Description;
 using Microsoft.AspNetCore.Mvc;
 using PersonalSiteDotNet.Core.Entities;
 using PersonalSiteDotNet.Core.Interfaces;
-using PersonalSiteDotNet.Web.Models;
-using PersonalSiteDotNet.Web.Mappers;
+using PersonalSiteDotNet.Core.Models;
+using PersonalSiteDotNet.Core.Mappers;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

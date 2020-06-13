@@ -1,11 +1,11 @@
 ﻿using PersonalSiteDotNet.Core.Entities;
-using PersonalSiteDotNet.Web.Models;
+using PersonalSiteDotNet.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace PersonalSiteDotNet.Web.Mappers
+namespace PersonalSiteDotNet.Core.Mappers
 {
     public static class BlogMapper
     {
